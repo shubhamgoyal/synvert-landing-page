@@ -11,15 +11,15 @@
         "s3:DeleteObject"
       ],
       "Resource": [
-        "arn:aws:s3:::REPLACE_WITH_BUCKET_NAME",
-        "arn:aws:s3:::REPLACE_WITH_BUCKET_NAME/*"
+        "arn:aws:s3:::synvertchem.com",
+        "arn:aws:s3:::synvertchem.com/*"
       ]
     },
     {
       "Sid": "InvalidateCache",
       "Effect": "Allow",
       "Action": "cloudfront:CreateInvalidation",
-      "Resource": "arn:aws:cloudfront::REPLACE_WITH_ACCOUNT_ID:distribution/REPLACE_WITH_DISTRIBUTION_ID"
+      "Resource": "arn:aws:cloudfront::983491056638:distribution/E3ED8YEX4MLX1A"
     }
   ]
 }
