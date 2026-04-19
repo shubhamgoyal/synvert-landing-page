@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Synvert Chemicals LLP — agrochemical segments, capabilities, and contact."
+    />
+    <title>Agrochemicals | Synvert Chemicals LLP</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Outfit:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="sr-only" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="logo" href="index.html">
+          SYNVERT CHEMICALS
+          <span>Limited Liability Partnership</span>
+        </a>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav class="nav" id="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="agrochem.html" aria-current="page">Agrochemicals</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="page-intro wrap">
+      <h1>Agrochemicals</h1>
+      <p class="lead">
+        Synvert is focused on <strong>agrochemicals</strong>—supplying technical materials,
+        formulation inputs, and related chemistry to partners across the agricultural
+        channel. Tell us your active ingredient, grade, packaging, and destination; we will
+        respond with availability, documentation path, and next steps.
+      </p>
+    </div>
+
+    <main id="main">
+      <section aria-labelledby="segments-heading">
+        <div class="wrap">
+          <h2 class="section-title" id="segments-heading">Where we play</h2>
+          <p class="section-intro">
+            Engagement is tailored to your registration and formulation context. Typical
+            areas include:
+          </p>
+          <div class="cards">
+            <article class="card">
+              <h3>Crop protection inputs</h3>
+              <p>
+                Technical materials and intermediates supporting herbicides, insecticides,
+                fungicides, and biocide-related farm use—subject to product registration
+                and permissible end-use in your market.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Plant nutrition &amp; specialty</h3>
+              <p>
+                Fertilizer-related chemistry and specialty nutritional inputs where
+                specification-driven sourcing and lot consistency matter for your blend or
+                finished goods.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Formulation &amp; packaging</h3>
+              <p>
+                Support for specified purity, moisture, and pack sizes—from bulk shipments
+                to drums and bags—aligned to your line and logistics constraints.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-alt" aria-labelledby="ops-heading">
+        <div class="wrap">
+          <h2 class="section-title" id="ops-heading">How we work with you</h2>
+          <p class="section-intro">
+            Agrochemical supply is as much about documentation and timing as it is about
+            price. Our operating rhythm reflects that.
+          </p>
+          <div class="cards">
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">①</div>
+              <h3>RFQ with context</h3>
+              <p>
+                Share product name or CAS, quantity, delivery location, required COA
+                parameters, and any registration or label constraints you need us to
+                respect.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">②</div>
+              <h3>Clear offers</h3>
+              <p>
+                We respond with availability, lead time, incoterms where applicable, and
+                document pack expectations—so your technical and commercial teams can
+                decide quickly.
+              </p>
+            </article>
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">③</div>
+              <h3>Repeat programs</h3>
+              <p>
+                For recurring demand, we aim for predictable slots and communication
+                around crop seasonality and port or inland logistics peaks.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-heading">
+        <div class="wrap">
+          <h2 class="section-title" id="contact-heading">Contact</h2>
+          <p class="section-intro">
+            Reach the team for agrochemical enquiries, specifications, or distributor
+            discussions.
+          </p>
+          <div class="contact-box">
+            <dl class="contact-details">
+              <div>
+                <dt>Company</dt>
+                <dd><strong>Synvert Chemicals LLP</strong></dd>
+              </div>
+              <div>
+                <dt>Website</dt>
+                <dd>
+                  <a href="https://synvertchem.com">synvertchem.com</a>
+                </dd>
+              </div>
+              <div>
+                <dt>Email</dt>
+                <dd>
+                  <a href="mailto:info@synvertchem.com">info@synvertchem.com</a>
+                </dd>
+              </div>
+            </dl>
+            <p class="contact-note">
+              Please include crop or use segment, product or CAS, quantity, delivery
+              location, and required certificates. We will reply with availability and next
+              steps.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>
+          <strong>© <span id="year"></span> Synvert Chemicals LLP.</strong>
+          <a href="index.html">Home</a>
+          · <a href="https://synvertchem.com">synvertchem.com</a>
+        </p>
+        <p><a href="index.html">Back to home</a></p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
