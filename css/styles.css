@@ -222,6 +222,84 @@ img {
   color: var(--text);
 }
 
+.hero--minimal {
+  padding: clamp(4.5rem, 14vw, 7rem) 0 clamp(3rem, 8vw, 4.5rem);
+  border-bottom: none;
+}
+
+.hero-min-inner {
+  max-width: 36rem;
+}
+
+.hero--minimal .hero-lead--soft {
+  max-width: 28rem;
+  font-size: 1.1875rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+.section-soft {
+  padding: clamp(2.5rem, 6vw, 3.5rem) 0 clamp(3rem, 8vw, 4rem);
+  background: var(--bg-subtle);
+  border-top: 1px solid var(--border);
+}
+
+.section-title--quiet {
+  font-size: clamp(1.125rem, 2vw, 1.35rem);
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem;
+}
+
+.section-one {
+  margin: 0;
+  max-width: 40ch;
+  font-size: 1.0625rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+}
+
+.page-intro--minimal {
+  padding: clamp(3rem, 10vw, 4.5rem) 0 0;
+  border-bottom: none;
+}
+
+.page-h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.75rem, 3vw, 2.125rem);
+  letter-spacing: -0.02em;
+  margin: 0 0 1.25rem;
+  color: var(--text);
+}
+
+.lead--open {
+  font-size: 1.125rem;
+  color: var(--text-muted);
+  max-width: 38ch;
+  margin: 0 0 1rem;
+  line-height: 1.75;
+}
+
+.contact-simple {
+  padding-top: 0.25rem;
+}
+
+.contact-simple p {
+  margin: 0 0 0.85rem;
+  font-size: 1.125rem;
+}
+
+.contact-simple a {
+  color: var(--text);
+}
+
+.contact-simple a:hover {
+  color: var(--accent);
+}
+
 .hero-lead {
   font-size: 1.125rem;
   color: var(--text-muted);
